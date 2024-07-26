@@ -1,0 +1,74 @@
+/* src/Faculty.css */
+body {
+  font-family: Arial, sans-serif;
+}
+
+.faculty-container {
+  text-align: center;
+  padding: 20px;
+  margin: 70px;
+  box-shadow: 0px 9px 30px rgba(255, 149, 5, 0.3);
+  
+}
+
+.faculty-container h2 {
+  color: #951e1e;
+  font-size: 45px;
+  margin-bottom: 20px;
+  text-decoration: underline;
+}
+
+.faculty-container p {
+  color: #000000;
+  font-size: 20px;
+  margin-bottom: 40px;
+}
+
+.profiles {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  
+}
+
+.profile {
+  background: #fff;
+  border: 1px solid #ddd;
+  border-radius: 10px;
+  padding: 20px;
+  margin: 10px;
+  width: 250px;
+  text-align: center;
+  box-shadow: 0 0 0 2px rgb(255, 230, 0), 8px 8px 0 0 rgb(150, 20, 44);
+}
+
+.profile-image {
+  border-radius: 50%;
+  width: 100px;
+  height: 100px;
+  object-fit: cover;
+  margin-bottom: 10px;
+}
+
+.profile h3 {
+  color: #000;
+  font-size: 20px;
+  margin-bottom: 5px;
+}
+
+.profile h4 {
+  color: #777;
+  font-size: 16px;
+  margin-bottom: 5px;
+}
+
+.profile h5 {
+  color: #999;
+  font-size: 14px;
+  margin-bottom: 10px;
+}
+
+.profile p {
+  color: #555;
+  font-size: 14px;
+}

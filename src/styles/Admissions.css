@@ -1,0 +1,61 @@
+
+.admissions-container{
+  width: 80%;
+  margin: 0 auto;
+  margin-top: 30px;
+  margin-bottom: 10px;
+}
+
+h1 {
+  text-align: center;
+  margin-bottom: 20px;
+
+}
+
+.search-container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-bottom: 20px;
+}
+
+.search-container label {
+  margin-right: 10px;
+}
+
+.search-container input {
+  padding: 5px;
+  margin-right: 10px;
+}
+
+.search-container button {
+  padding: 5px 10px;
+  background-color:#740819;
+  border: none;
+  color: white;
+  cursor: pointer;
+}
+
+.admissions-table {
+  width: 100%;
+  border-collapse: collapse;
+}
+
+.admissions-table th, .admissions-table td {
+  border: 1px solid #ddd;
+  padding: 8px;
+  text-align: left;
+}
+
+.admissions-table th {
+  background-color: #740819;
+  color: white;
+}
+
+.admissions-table tr:nth-child(even) {
+  background-color: #f2f2f2;
+}
+
+.admissions-table tr:hover {
+  background-color: #ddd;
+}

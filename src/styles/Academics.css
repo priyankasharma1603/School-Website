@@ -1,0 +1,42 @@
+.academics-section {
+  background-image: url("../assets/images/academics.png");
+  background-repeat: no-repeat;
+  background-size: 1550px 1020px;
+  /* Light grey background color */
+  padding: 20px;
+  border-left: 25px solid #ffcc33; /* Yellow side border */
+  font-family: Arial, Helvetica, sans-serif;
+  box-shadow: 0px -25px 20px -20px rgba(0, 0, 0, 0.45), 25px 0 20px -20px rgba(0, 0, 0, 0.45), 0px 25px 20px -20px rgba(0, 0, 0, 0.45), -25px 0 20px -20px rgba(0, 0, 0, 0.45);
+}
+
+
+.section-title {
+  font-size: 25px;
+  color: #a51212;
+  margin-top: 10px;
+  text-align: center;
+  font-weight: 600;
+  
+}
+.curriculum{
+  box-shadow: 0px 9px 30px rgba(255, 149, 5, 0.3);
+  padding: 5px;
+}
+
+
+.curriculum ul {
+  list-style-type: square;
+  margin-left: 40px;
+  font-style: italic;
+  font-weight: 700;
+}
+
+.teaching-methodologies, .educational-resources {
+  margin-top: 25px;
+}
+
+p {
+  margin-left: 20px;
+  text-align: center;
+  color: #000000;
+}

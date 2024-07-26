@@ -1,0 +1,50 @@
+/* src/components/Navbar.css */
+.navbar{
+  height: 90px;
+  box-shadow: rgba(0, 0, 0, 0.3) 0px 19px 38px, rgba(0, 0, 0, 0.22) 0px 15px 12px;
+}
+.navbar-brand {
+  display: flex;
+  align-items: center;
+  margin-top: -20px;
+  
+}
+.navbar-toggler{
+  margin-top: -20px;
+  
+}
+.navbar-brand .logo {
+  height: 60px;
+  margin-right: 80px;
+  margin-left: 40px;
+  margin-top: 10px;
+}
+
+.navbar-nav .nav-link {
+  color: #000;
+  margin-right: 10px;
+  font-size: 1rem;
+  font-weight: 600;
+}
+.navbar-nav {
+  margin-left:15px ;
+}
+
+.navbar-nav .nav-link:hover {
+  color: #740819;
+}
+
+.navbar-nav .active {
+  color: #740819 !important;
+}
+
+.navbar .btn {
+  background-color: #740819;
+  color: white;
+  border-radius: 20px;
+  margin-left:70px ;
+}
+
+.navbar .btn:hover {
+  background-color: #0468bb;
+}

@@ -1,0 +1,71 @@
+.gallery-section {
+  text-align: center;
+  color: black;
+  background-image:url(../assets/images/bg.png);
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+.gallery-section h2{
+  color: maroon;
+  text-decoration: underline;
+  font-size: 45px;
+}
+
+.tabs {
+  display: flex;
+  justify-content: center;
+  margin-bottom: 20px;
+}
+
+.tab-button {
+  padding: 10px 20px;
+  cursor: pointer;
+  border: none;
+  background: none;
+  font-size: 16px;
+  transition: color 0.3s;
+  color: rgb(161, 23, 23);
+}
+
+.tab-button.active {
+  color: rgb(255, 147, 39);
+  font-weight: bold;
+  text-decoration: underline;
+  
+}
+
+.tab-content {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+}
+
+.photo-item,
+.video-item {
+  margin: 10px;
+  flex: 1 1 calc(33.333% - 20px);
+  box-sizing: border-box;
+}
+
+.photo-item img,
+.video-item video {
+  width: 50%;
+  height: auto;
+  box-shadow: 0 0 0 2px rgb(36, 36, 36), 8px 8px 0 0 rgb(135, 16, 22);
+  margin-bottom: 20px;
+}
+
+.view-all {
+  margin-top: 20px;
+}
+
+.view-all a {
+  color: rgb(181, 33, 33);
+  text-decoration: none;
+  font-size: 16px;
+  transition: color 0.3s;
+}
+
+.view-all a:hover {
+  color: darkorange;
+}
